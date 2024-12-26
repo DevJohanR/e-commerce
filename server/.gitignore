@@ -1,0 +1,39 @@
+# Archivos de entorno de Python
+*.pyc
+__pycache__/
+
+# Entornos virtuales
+env/
+venv/
+mi_entorno/
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de Django
+/static/
+/media/
+
+# Archivos de migración de Django
+*/migrations/
+
+# Archivos de logs
+*.log
+
+# Archivos de caché
+*.cache
+*.py[cod]
+
+# Archivos de empaquetado
+*.egg
+*.egg-info/
+dist/
+build/
