@@ -88,8 +88,8 @@ export const activate = (uid, token) => async dispatch =>{
         }
         dispatch({
             type: REMOVE_AUTH_LOADING
-        })
 
+        })
     }catch(err){
         dispatch({
             type: ACTIVATION_FAIL
