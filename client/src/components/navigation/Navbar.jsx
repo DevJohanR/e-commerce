@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Alert from '../../components/Alert'
 
 export const Navbar = () => {
   return (
+    <>
     <div className='w-full bg-slate-500'>
       <ul className='flex justify-between text-white p-3'>
         <li>elemento 1</li>
@@ -13,5 +15,7 @@ export const Navbar = () => {
         <li><Link to="/signup" >Registrarse</Link></li>
       </ul>
     </div>
+    <Alert/>
+    </>
   )
 }
