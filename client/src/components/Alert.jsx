@@ -4,7 +4,7 @@ import { CheckCircleIcon } from '@heroicons/react/solid'
 // Importamos los hooks de react-redux
 import { useDispatch, useSelector } from 'react-redux'
 // Aquí puedes importar cualquier acción que quieras despachar (por ejemplo, para ocultar la alerta después de un tiempo)
-import { clearAlert } from '../actions/alertActions'  // Asegúrate de tener esta acción definida si es necesario
+/*import { clearAlert } from '../actions/alertActions' */ // Asegúrate de tener esta acción definida si es necesario
 
 function Alert() {
     // Usamos el hook `useSelector` para acceder al estado global
